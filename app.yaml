@@ -1,0 +1,7 @@
+runtime: nodejs20
+instance_class: F1
+entrypoint: node dist/main
+env_variables:
+  FIREBASE_PROJECT_ID: iatros-478211
+  FIRESTORE_DATABASE_ID: iatros-db
+  GOOGLE_APPLICATION_CREDENTIALS: iatros-478211-0c1f650139a2.json
